@@ -2,11 +2,10 @@
 /*
 Plugin Name: Domain Limiter
 Plugin URI:  https://github.com/baldwicc/yourls-domainlimit-plugin
-Forked from: https://github.com/nicwaller/yourls-domainlimit-plugin
 Description: Only allow URLs from admin-specified domains
 Version: 1.1.1-qut.to
-Author: nicwaller
-Author URI: https://github.com/nicwaller
+Author: baldwicc
+Author URI: https://github.com/baldwicc
 */
 
 // No direct call
