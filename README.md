@@ -7,7 +7,7 @@ You might want to limit the domains allowed for shortlinks so that your brand is
 
 Installation
 ------------
-1. Download the [latest release](https://github.com/baldwicc/yourls-domainlimit-plugin/releases)
+1. Download the [latest release](https://github.com/davoaust/yourls-domainlimit-plugin/releases)
 1. Copy the plugin folder into your user/plugins folder for YOURLS.
 1. Activate the plugin with the plugin manager in the admin interface.
 
@@ -25,7 +25,11 @@ You may also optionally specify a list of usernames that are exempt from this re
 License
 -------
 
-[baldwicc/yourls-domainlimit-plugin](https://github.com/baldwicc/yourls-domainlimit-plugin/releases)
+[davoaust/yourls-domainlimit-plugin](https://github.com/davoaust/yourls-domainlimit-plugin/releases)
+
+Copyright 2016 Queensland University of Technology (david.lang@qut.edu.au)
+
+Forked from [baldwicc/yourls-domainlimit-plugin](https://github.com/baldwicc/yourls-domainlimit-plugin/releases)
 
 Copyright 2016 Queensland University of Technology (c1.baldwin@qut.edu.au)
 
