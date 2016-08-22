@@ -87,14 +87,17 @@ function domainlimit_is_subdomain( $test_domain, $parent_domain ) {
 	}
 
 	// Are we wildcard checking subdomains?
-	if ( substr( $parent_domain, 1, 1) == '*' ) {
+	if ( substr( $parent_domain, 0, 1) == '*' ) {
+		// Remove the wildcard
+		$parent_domain = str_replace("*", "", $parent_domain);
+
 		// note that "notunbc.ca" is NOT a subdomain of "unbc.ca"
 		// We CANNOT just compare the rightmost characters
 		// unless we add a period in there first
-		if ( substr( $parent_domain, 1, 1) != '.' ) {
+		if ( substr( $parent_domain, 0, 1) != '.' ) {
 			$parent_domain = '.' . $parent_domain;
 		}
-		
+
 		$chklen = strlen($parent_domain);
 		return ( $parent_domain == substr( $test_domain, 0-$chklen ) );
 	} else {
