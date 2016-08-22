@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Domain Limiter
-Plugin URI:  https://github.com/baldwicc/yourls-domainlimit-plugin
-Description: Only allow URLs from admin-specified domains
-Version: 1.1.1-qut.to
-Author: baldwicc
-Author URI: https://github.com/baldwicc
+Plugin URI:  https://github.com/davoaust/yourls-domainlimit-plugin
+Description: Only allow URLs from admin-specified domains and the option to exclude specific domains
+Version: 1.1.2-qut.to
+Author: davoaust
+Author URI: https://github.com/davoaust
 */
 
 // No direct call
