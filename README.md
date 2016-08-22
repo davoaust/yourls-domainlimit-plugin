@@ -22,6 +22,9 @@ To explicitly exclude domains you can use:
 You may also optionally specify a list of usernames that are exempt from this restriction.
 `domainlimit_exempt_users = array( 'bobadmin' );`
 
+You can optionally target subdomains using a wildcard asterix before the parent domain, otherwise it reverts to exact matching.
+Eg. `*.my.parent.domain` will target all the subdomains
+
 License
 -------
 
